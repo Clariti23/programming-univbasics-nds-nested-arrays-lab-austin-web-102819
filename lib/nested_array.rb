@@ -27,8 +27,7 @@ def array_literal_matrix
   # side the ENNET_HOUSE and ENFIELD_TENNIS_ACADEMY Arrays but sorts
   # alphabetically by the first character.
   new_array = []
-  new_array.push(ENNET_HOUSE.sort)
-  new_array.push(ENFIELD_TENNIS_ACADEMY)
+  new_array.push(ENNET_HOUSE.sort, ENFIELD_TENNIS_ACADEMY.sort)
   return new_array
 end
 
